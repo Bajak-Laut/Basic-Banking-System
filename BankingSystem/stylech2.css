@@ -1,0 +1,44 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Gaya untuk objek yang akan ditempatkan di tengah */
+  }
+
+  .container {
+    position: relative;
+    height: 50vh;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+  .jumbroton {
+    background-color: #a8a8a8;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .text-bold{
+    font-weight: bold;
+}
+

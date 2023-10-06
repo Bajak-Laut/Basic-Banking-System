@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylech2.css">
+    <title>Banking System</title>
+</head>
+<div class="card container">
+<div class="centered">
+
+<body>
+ <div class="jumbroton">
+    <div class="flex-column">
+    <h1>Banking System Javascript</h1>
+
+    <div>
+        <button onclick="testDeposit()" class="text-bold">Deposit</button>
+        <button onclick="testWithdraw()" class="text-bold">Withdraw</button>
+    </div>
+
+    <div>
+        <label for="balanceInput">Enter Balance: $</label>
+        <input type="number" id="balanceInput" placeholder="Enter balance">
+        <button onclick="setBalance()" class="text-bold">Set Balance</button>
+    </div>
+
+    <div>
+        <span class="text-bold">Current Balance: $<span id="balance">1000</span></span>
+    </div>
+    </div>
+ </div>
+
+</div>
+</div>
+    <script src="banking_system.js"></script>
+</body>
+</html>
